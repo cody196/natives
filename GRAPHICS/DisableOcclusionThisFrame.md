@@ -10,3 +10,4 @@ void DISABLE_OCCLUSION_THIS_FRAME();
 ```
 
 
+This disables occluders that are under the map or inside buildings and prevents the 'flickering' rendering when inside a building with no interior or under the map. This needs to be called every frame.
